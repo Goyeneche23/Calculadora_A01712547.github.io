@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Juan Jose G</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="Calculadora">
+        <p id="valores">0</p>
+        <div class="Inputs">
+            <button onclick="anadirNum('7')">7</button>
+            <button onclick="anadirNum('8')">8</button>
+            <button onclick="anadirNum('9')">9</button>
+
+            <button onclick="anadirNum('4')">4</button>
+            <button onclick="anadirNum('5')">5</button>
+            <button onclick="anadirNum('6')">6</button>
+
+            <button onclick="anadirNum('1')">1</button>
+            <button onclick="anadirNum('2')">2</button>
+            <button onclick="anadirNum('3')">3</button>
+
+            <button onclick="anadirNum('0')">0</button>
+
+        </div>
+        <div class ="Operadores">
+            <button onclick="borrar()">A/C</button>
+            <button onclick="dividir()">/</button>
+            <button onclick="multiplicar()">*</button>
+            <button onclick="restar()">-</button>
+            <button onclick="sumar()">+</button>
+            <button onclick="calcular()">=</button>
+        </div>
+    </div>
+
+    <script src="operaciones.js"></script>
+</body>
+</html>
